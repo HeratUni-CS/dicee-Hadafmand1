@@ -4,8 +4,8 @@ import 'dart:math';
 void main() {
   runApp(MaterialApp(
     home: Scaffold(
-      backgroundColor: Colors.red,
-      appBar: AppBar(title: Center(child: Text('TestDice'),), backgroundColor: Colors.red,
+      backgroundColor: Colors.blue,
+      appBar: AppBar(title: Center(child: Text('dice'),), backgroundColor: Colors.red,
       ),
       body:Dicepage(),
     ),
@@ -36,7 +36,7 @@ class _DicepageState extends State<Dicepage> {
             child:TextButton(onPressed: () {
               ChangeDice();
             },
-              child: Padding( padding:EdgeInsets.all(16),child:Image.asset('images/Dice$leftDicenumber.png'),),
+              child: Padding( padding:EdgeInsets.all(15),child:Image.asset('images/Dice$leftDicenumber.png'),),
             ),
           ),
           Expanded(
